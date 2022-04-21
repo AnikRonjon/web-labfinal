@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Eduport - LMS, Education and Course Theme</title>
+	<title>Dashboard</title>
 
 	<!-- Meta Tags -->
 	<meta charset="utf-8">
@@ -111,7 +111,7 @@ Page content START -->
 									<a class="list-group-item" href="#"><i class="bi bi-cart-check fa-fw me-2"></i>Wishlist</a>
 									<a class="list-group-item" href="#"><i class="bi bi-pencil-square fa-fw me-2"></i>Edit Profile</a>
 									<a class="list-group-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Settings</a>
-									<a class="list-group-item" href="account-delete.php"><i class="bi bi-trash fa-fw me-2"></i>Delete Profile</a>
+									<a class="list-group-item" href="#"><i class="bi bi-trash fa-fw me-2"></i>Delete Profile</a>
 									<a class="list-group-item text-danger bg-danger-soft-hover" href="#"><i class="fas fa-sign-out-alt fa-fw me-2"></i>Sign Out</a>
 								</div>
 							</div>

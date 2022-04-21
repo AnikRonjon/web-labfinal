@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "INSERT INTO student (name, email, password) VALUES ('$name', '$email', '$password1')";
 
         if (mysqli_query($conn, $sql)) {
-            echo "<script>window.location.href='http://localhost/LABFINAL/student-dashboard.php';</script>";
+            header("location: sign-in.php");
             exit();
         }
     }
