@@ -1,24 +1,24 @@
 <?php
-   include("config.php");
    session_start();
+   include("config.php");
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       // email and password sent from form 
       
-      $email = mysqli_real_escape_string($conn,$_POST['email']);
-      $password = mysqli_real_escape_string($conn,$_POST['password']); 
+      $email = mysqli_real_escape_string($conn, $_POST['email']);
+      $password = mysqli_real_escape_string($conn, $_POST['password']); 
       
-      $sql = "SELECT id FROM student WHERE email = '$email' and password = '$password'";
-      $result = mysqli_query($conn,$sql);
-      $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+      $sql = "SELECT id FROM student WHERE email = '$email' AND password = '$password'";
+      $result = mysqli_query($conn, $sql);
+      $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
       
       $count = mysqli_num_rows($result);
       
       // If result matched $email and $password, table row must be 1 row
 		
       if($count == 1) {
-         $_SESSION['email'] = $email;
-         $_SESSION['login_user'] = $email;
+		$user_id = $row["id"];
+        $_SESSION['login_user'] = $user_id;
          
          header("location: student-dashboard.php");
       }else {

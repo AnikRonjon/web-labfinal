@@ -58,7 +58,8 @@ Page Banner START -->
 						<!-- Profile info -->
 						<div class="col d-sm-flex justify-content-between align-items-center">
 							<div>
-								<h1 class="my-1 fs-4"><?php echo $email_session ?></h1>
+								<h1 class="my-1 fs-4"><?php echo $name_session ?></h1>
+								<p class="my-1 fs-4"><?php echo $email_session ?></p>
 								
 						</div>
 					</div>
@@ -111,7 +112,7 @@ Page content START -->
 									<a class="list-group-item" href="#"><i class="bi bi-cart-check fa-fw me-2"></i>Wishlist</a>
 									<a class="list-group-item" href="#"><i class="bi bi-pencil-square fa-fw me-2"></i>Edit Profile</a>
 									<a class="list-group-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Settings</a>
-									<a class="list-group-item" href="#"><i class="bi bi-trash fa-fw me-2"></i>Delete Profile</a>
+									<a class="list-group-item" href="account-delete.php"><i class="bi bi-trash fa-fw me-2"></i>Delete Profile</a>
 									<a class="list-group-item text-danger bg-danger-soft-hover" href="#"><i class="fas fa-sign-out-alt fa-fw me-2"></i>Sign Out</a>
 								</div>
 							</div>
