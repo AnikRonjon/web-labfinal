@@ -4,7 +4,7 @@
 	<nav class="navbar navbar-expand-lg">
 		<div class="container">
 			<!-- Logo START -->
-			<a class="navbar-brand me-0" href="http://localhost/LABFINAL/">
+			<a class="navbar-brand me-0" href="http://localhost/">
 				<img class="light-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo">
 				<img class="dark-mode-item navbar-brand-item" src="assets/images/logo-light.svg" alt="logo">
 			</a>
